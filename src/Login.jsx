@@ -44,7 +44,7 @@ function Login() {
       <div id='box-form'>
         <h1>Login</h1>
         <form action="">
-          <input type="text" name="name" id="name" placeholder='Enter your name' onChange={(e) => setName(e.target.value)} />
+          <input type="text" name="name" id="username" placeholder='Enter your name' onChange={(e) => setName(e.target.value)} />
           <input type="password" name="password" id="password" placeholder='Enter your password' onChange={(e) => setPassword(e.target.value)} />
         </form>
         <button onClick={handleSubmit}>Login</button>
