@@ -52,11 +52,10 @@ const Home = () => {
 
             <div id='box-faturas' style={{ visibility: isVisible ? 'visible' : 'hidden' }}>
                     <h3>Faturas</h3>
-                    <a href="#">Fatura 1</a>
-                    <a href="#">Fatura 2</a>
-                    <a href="#">Fatura 3</a>
-                    <a href="#">Fatura 4</a>
-                    <a href="#">Fatura 5</a>
+                    <a href="/7356699.pdf" target='_blank'>Fatura 1</a>
+                    <a href="/7356700.pdf" target='_blank'>Fatura 2</a>
+                    <a href="/7356701.pdf" target='_blank'>Fatura 3</a>
+                    <a href="/7356702.pdf" target='_blank'>Fatura 4</a>
             </div>
         </div>
     </div>
