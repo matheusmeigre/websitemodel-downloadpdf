@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
 }
 
 #box-home {    
@@ -42,5 +43,74 @@ body {
 
     a:hover {
         text-decoration: underline;
+    }
+}
+
+#box-periodo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#box-cnpj {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;    
+}
+
+#box-cnpj select, #box-periodo select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+#box-faturas a {
+    text-decoration: none;
+    color: blue;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+#box-faturas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+
+    h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+}
+
+#btn-search {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #0056b3;
     }
 }
